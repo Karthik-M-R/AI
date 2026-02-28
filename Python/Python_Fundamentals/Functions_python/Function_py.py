@@ -3,7 +3,7 @@ THE COMPLETE FUNCTIONS MASTERCLASS
 
 """
 
-# 1. BASIC FUNCTION & DOCSTRINGS (Topic 39 & 46)
+# 1. BASIC FUNCTION & DOCSTRINGS 
 def greet_user(name, role="Guest"):
     """
     This is a Docstring. It documents what the function does.
@@ -11,7 +11,7 @@ def greet_user(name, role="Guest"):
     """
     return f"Hello {name}, you are logged in as {role}."
 
-# 2. HANDLING ARGUMENTS: *args and **kwargs (Topic 43)
+# 2. HANDLING ARGUMENTS: *args and **kwargs 
 def make_pizza(size, *toppings, **details):
     """
     *toppings (args): Collects extra positional arguments into a TUPLE.
@@ -21,7 +21,7 @@ def make_pizza(size, *toppings, **details):
     print(f"Toppings: {toppings}")
     print(f"Delivery Details: {details}")
 
-# 3. SCOPE: Global vs Local vs Non-local (Topic 41 & 42)
+# 3. SCOPE: Global vs Local vs Non-local 
 global_score = 100 # GLOBAL Scope (top level)
 
 def game_setup():
@@ -39,12 +39,12 @@ def game_setup():
     update_score()
     return local_high_score
 
-# 4. MULTIPLE RETURNS (Topic 44)
+# 4. MULTIPLE RETURNS 
 def get_coordinates():
     # Returns a tuple, which can be unpacked
     return 10.5, 20.8, 30.0 
 
-# 5. LAMBDAS & PURE VS IMPURE (Topic 45)
+# 5. LAMBDAS & PURE VS IMPURE 
 # Lambda: One-liner anonymous function
 square = lambda x: x * x
 
