@@ -9,17 +9,8 @@ This repository is a collection of my hands-on AI learning work, notes, and expe
 - CLI and API integration examples
 - RAG-related explorations
 - Agent-based project experiments
+- And many more  AI learnings
 
-## Repository folders
-
-- `Python/`
-- `Prompts/`
-- `RAG/`
-- `CLI_coding_agent/`
-- `API_Integration/`
-- `Ollama_Fastapi/`
-- `WeatherAgent/`
-- `hf_basics/`
 
 ## Purpose
 
